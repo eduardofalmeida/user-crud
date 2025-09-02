@@ -2,8 +2,10 @@ package br.com.eduardoalmeida.user_crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"br.com.eduardoalmeida.user_crud"})
 public class UserCrudApplication {
 
 	public static void main(String[] args) {
